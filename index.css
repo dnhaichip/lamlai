@@ -1,0 +1,89 @@
+/* css global */
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: saf,sans-serif;
+}
+.padding-body{
+    padding: 0 24.5%;
+}
+ /* endcss global */
+#header{
+    height: 80px;
+    background-color: #1e1311;
+    color: white;
+    /* display: flex; */
+}
+.container{
+    display: flex;
+}
+.phonglogo{
+    height: 150px;
+    width: 137px;
+}
+img{
+    
+}
+.logo{
+    height: 115px;
+    width: 116px;
+}
+.header-logo{
+    margin-left:50px;
+    /* width: 13.7%; */
+    position: relative;
+
+}
+.header-logo .logo{
+   position: absolute;
+    top: 25px;
+    left: 12px;
+}
+.header-slogan{
+    flex-grow: 1;
+}
+.header-slogan h2{
+    margin-left: 5px;
+    margin-bottom: 3px;
+    color: #fddb53;
+}
+.header-slogan p{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #b5ac85;
+}
+.header-social{
+    display: flex;
+   
+}
+.header-social .fb{
+    background-image: url(img/fr1/btnfbnor.png);
+    width: 141px;
+    height: 52px;
+}
+.header-social .fb:hover{
+    background-image: url(img/fr1/btnfbhor.png);
+}
+.header-social .gr{
+    background-image: url(img/fr1/btngrnor.png);
+    width: 141px;
+    height: 52px;
+}
+.header-social .gr:hover{
+    background-image: url(img/fr1/btngrhor.png);
+}
+.header-social .gg{
+    background-image: url(img/fr1/btndktnor.png);
+    width: 141px;
+    height: 52px;
+}
+.header-social .gg:hover{
+    background-image: url(img/fr1/btndkthor.png);
+}
